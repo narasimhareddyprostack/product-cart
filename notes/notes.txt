@@ -1,8 +1,7 @@
 Product API - Application (MERN Stack) Full Stack Application
----------------------
 
 Server Side Configuration (Express , Mongo DB / mongoose)
--------------------------
+
 Modules : express , mongoose , cors , dotenv
 
 npm install express mongoose cors dotenv
