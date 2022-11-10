@@ -1,4 +1,4 @@
-BigBasket Application (MERN Stack) Full Stack Application
+Product API - Application (MERN Stack) Full Stack Application
 ---------------------
 
 Server Side Configuration (Express , Mongo DB / mongoose)
@@ -9,7 +9,7 @@ npm install express mongoose cors dotenv
 
 DB Design
 ---------
-Database -> big-basket -> mongodb://127.0.0.1:27017/big-basket
+Database -> productapi -> mongodb://127.0.0.1:27017/productapi
 Table -> product
 fields -> name:string ,
 		image:string ,

@@ -15,7 +15,7 @@ dotEnv.config({ path: './config/config.env' });
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-const hostname = process.env.HOST_NAME;
+const hostname = process.env.SERVER_HOST_NAME;
 const port = process.env.PORT;
 
 app.get('/', (request, response) => {
