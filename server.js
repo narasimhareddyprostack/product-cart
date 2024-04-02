@@ -15,15 +15,15 @@ dotEnv.config({ path: './config/config.env' });
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-const hostname = process.env.SERVER_HOST_NAME;
+const hostname = process.env.HOST_NAME;
 const port = process.env.PORT;
 
 app.get('/', (request, response) => {
-    response.send(`<h2>Welcome to BigBasket Express Server</h2>`);
+    response.send(`<h2>Welcome to Pro Stack</h2>`);
 });
 
 // connect to Mongo DB Database
-mongoose.connect(process.env.MONGO_DB_REMOTE_URL, {
+mongoose.connect(process.env.MONGO_DB_LOCAL_URL, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false,
